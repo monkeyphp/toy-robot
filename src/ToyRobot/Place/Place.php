@@ -79,12 +79,12 @@ final class Place
     /**
      * @return int|null
      */
-    public final function getX(): ?int
+    public function getX(): ?int
     {
         return $this->x;
     }
 
-    private final function setX($x): void
+    private function setX($x): void
     {
         $this->x = $x;
     }
@@ -94,7 +94,7 @@ final class Place
         return $this->y;
     }
 
-    private final function setY($y): void
+    private function setY($y): void
     {
         $this->y = $y;
     }
@@ -104,7 +104,7 @@ final class Place
         return $this->facing;
     }
 
-    private final function setFacing($facing): void
+    private function setFacing($facing): void
     {
         $this->facing = $facing;
     }

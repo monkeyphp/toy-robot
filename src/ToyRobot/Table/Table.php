@@ -46,12 +46,12 @@ class Table
         $this->setHeight($height);
     }
 
-    final private function setWidth($width): void
+    private function setWidth($width): void
     {
         $this->width = $width;
     }
 
-    final private function setHeight($height): void
+    private function setHeight($height): void
     {
         $this->height = $height;
     }

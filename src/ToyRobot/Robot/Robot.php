@@ -193,30 +193,27 @@ final class Robot
         return true;
     }
 
-    /**
-     * @return bool
-     */
-    private final function isPlaced(): bool
+    private function isPlaced(): bool
     {
         return (bool) $this->getPlace();
     }
 
-    private final function setTable(Table $table): void
+    private function setTable(Table $table): void
     {
         $this->table = $table;
     }
 
-    private final function getTable(): Table
+    private function getTable(): Table
     {
         return $this->table;
     }
 
-    private final function setPlace(Place $place): void
+    private function setPlace(Place $place): void
     {
         $this->place = $place;
     }
 
-    private final function getPlace(): ?Place
+    private function getPlace(): ?Place
     {
         return $this->place;
     }

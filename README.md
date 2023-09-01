@@ -23,6 +23,13 @@ php index.php
 
 ---
 
+## Docker
+
+docker build --tag toy-robot .
+docker run --interactive --tty --rm --name toy-robot-running toy-robot
+
+---
+
 ## Description
 
 The following description is ripped from https://raw.githubusercontent.com/RafaelChefe/toy_robot/main/README.md .
